@@ -22,9 +22,6 @@ def gethttp(url, head):
     soup = BeautifulSoup(r.text, 'html.parser')
     return soup
 
-
-
-
 #打印分割线模块
 def fengexian():
     fgx = '='
